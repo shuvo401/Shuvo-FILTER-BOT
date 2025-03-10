@@ -90,13 +90,13 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_group_02')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/S_MovieChannel')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/movie_group_02') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 't.me/movie_group_02') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/kog_shuvo')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))
-BUTTON_MODE = bool(environ.get('BUTTON_MODE', True))
+BUTTON_MODE = bool(environ.get('BUTTON_MODE', False))
 MAX_BTN = bool(environ.get('MAX_BTN', True))
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 IMDB = bool(environ.get('IMDB', False))
@@ -143,7 +143,7 @@ MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 
 
 # Choose Option Settings 
-LANGUAGES = ["bangla", "malayalam", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan"]
+LANGUAGES = ["bengali", "malayalam", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan"]
 SEASONS = ["season 1", "season 2", "season 3", "season 4", "season 5", "season 6", "season 7", "season 8", "season 9", "season 10"]
 EPISODES = ["E01", "E02", "E03", "E04", "E05", "E06", "E07", "E08", "E09", "E10", "E11", "E12", "E13", "E14", "E15", "E16", "E17", "E18", "E19", "E20", "E21", "E22", "E23", "E24", "E25", "E26", "E27", "E28", "E29", "E30", "E31", "E32", "E33", "E34", "E35", "E36", "E37", "E38", "E39", "E40"]
 QUALITIES = ["360p", "480p", "720p", "1080p", "1440p", "2160p"]
@@ -170,7 +170,7 @@ URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
-RENAME_MODE = bool(environ.get('RENAME_MODE', False)) # Set True or False
+RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or False
 
 
 # Auto Approve Info : If True Then Bot Approve New Upcoming Join Request Else Not
